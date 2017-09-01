@@ -25,7 +25,7 @@ public class Matriz {
                         if(y.matriz[w+1][i]!="") {
                             regularExp += "(" + y.matriz[w][i] + "+";
                         }else{
-                            break;
+                            regularExp += y.matriz[w][i];
                         }
                     }else if(w==1){
                         if(y.matriz[w+1][i]!=""){
