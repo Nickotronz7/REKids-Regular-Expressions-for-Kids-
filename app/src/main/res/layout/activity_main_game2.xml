@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.nicko.rekids_regular_expressions_for_kids_.MainGame2">
+    tools:context="com.example.nicko.rekids_regular_expressions_for_kids_.Games.MainGame2">
 
     <TextView
         android:id="@+id/textView"
@@ -16,7 +16,6 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="27dp"
         android:textAlignment="viewStart"
-        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -54,7 +53,8 @@
         android:layout_marginRight="126dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="409dp" />
+        android:layout_marginTop="409dp"
+        android:onClick="show" />
 
     <TableLayout
         android:id="@+id/tableLayout"
