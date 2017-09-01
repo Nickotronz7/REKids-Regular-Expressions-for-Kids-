@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/nicko/.android/build-cache/0e3f5bc94f7eb86938621351f86b648f84e10cf8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/home/nicko/Documentos/AndroidStudioProjects/REKids-Regular-Expressions-for-Kids-/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3d5888ea0b112b284a57124e8968e31e58fe427b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nicko/Documentos/AndroidStudioProjects/REKids-Regular-Expressions-for-Kids-/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/nicko/Documentos/AndroidStudioProjects/REKids-Regular-Expressions-for-Kids-/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8b579ef7d3028e9af282be43db9132a7a4b4cea4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nicko/Documentos/AndroidStudioProjects/REKids-Regular-Expressions-for-Kids-/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bb30b06516b7f375ff4e97e41cc34116a8b1ca7a">
+        <dex dex="/home/nicko/Documentos/AndroidStudioProjects/REKids-Regular-Expressions-for-Kids-/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2bad81b43f4d43c81900a47de5ec945cdb15036f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nicko/.android/build-cache/a4d8fefe160d535267860f35b379cad94ed03f05/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/home/nicko/Documentos/AndroidStudioProjects/REKids-Regular-Expressions-for-Kids-/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ed840cf91c7795376fdad403a5565334c548c2cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nicko/.android/build-cache/429b3ce5e1a955265c5bb2dcf9ee8209c413c156/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/home/nicko/Documentos/AndroidStudioProjects/REKids-Regular-Expressions-for-Kids-/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8cf70792b9ea4c9cda2f010914a0a0166c00d7d3/classes.dex" />
+    </item>
+
+</items>

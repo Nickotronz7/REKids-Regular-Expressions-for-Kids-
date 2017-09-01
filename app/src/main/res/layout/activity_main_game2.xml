@@ -8,508 +8,417 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="579dp"
-        android:layout_height="151dp"
+        android:layout_width="388dp"
+        android:layout_height="170dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="27dp"
         android:textAlignment="viewStart"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Clint"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        android:layout_marginRight="30dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="30dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="Clear"
+        app:layout_constraintRight_toLeftOf="@+id/button6"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="13dp" />
+        android:layout_marginTop="409dp"
+        app:layout_constraintHorizontal_bias="0.333"
+        android:onClick="clear" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="Show"
+        android:layout_marginRight="126dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="409dp" />
 
     <TableLayout
-        android:layout_width="579dp"
+        android:id="@+id/tableLayout"
+        android:layout_width="383dp"
         android:layout_height="129dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.812"
-        tools:layout_editor_absoluteY="158dp"
-        tools:layout_editor_absoluteX="5dp">
+        app:layout_constraintVertical_bias="0.064"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/editText15"
-                android:layout_width="21dp"
+                android:id="@+id/textBox00"
+                android:layout_width="32dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                tools:maxEms="1"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText14"
-                android:layout_width="21dp"
+                android:id="@+id/textBox01"
+                android:layout_width="32dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText13"
-                android:layout_width="21dp"
+                android:id="@+id/textBox02"
+                android:layout_width="32dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText12"
-                android:layout_width="21dp"
+                android:id="@+id/textBox03"
+                android:layout_width="32dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText11"
-                android:layout_width="21dp"
+                android:id="@+id/textBox04"
+                android:layout_width="32dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText10"
-                android:layout_width="21dp"
+                android:id="@+id/textBox05"
+                android:layout_width="32dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText9"
-                android:layout_width="21dp"
+                android:id="@+id/textBox06"
+                android:layout_width="32dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText25"
-                android:layout_width="21dp"
+                android:id="@+id/textBox07"
+                android:layout_width="32dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText24"
-                android:layout_width="21dp"
+                android:id="@+id/textBox08"
+                android:layout_width="32dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText23"
-                android:layout_width="21dp"
+                android:id="@+id/textBox09"
+                android:layout_width="32dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText22"
-                android:layout_width="21dp"
+                android:id="@+id/textBox010"
+                android:layout_width="32dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
-            <EditText
-                android:id="@+id/editText21"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText20"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText19"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText18"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText17"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText16"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/editText42"
+                android:id="@+id/textBox10"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText41"
+                android:id="@+id/textBox11"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText40"
+                android:id="@+id/textBox12"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText39"
+                android:id="@+id/textBox13"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText38"
+                android:id="@+id/textBox14"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText37"
+                android:id="@+id/textBox15"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText36"
+                android:id="@+id/textBox16"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText35"
+                android:id="@+id/textBox17"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText34"
+                android:id="@+id/textBox18"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText33"
+                android:id="@+id/textBox19"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText32"
+                android:id="@+id/textBox110"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
-            <EditText
-                android:id="@+id/editText31"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText30"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText29"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText28"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText27"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText26"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/editText59"
+                android:id="@+id/textBox20"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText58"
+                android:id="@+id/textBox21"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText57"
+                android:id="@+id/textBox22"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText56"
+                android:id="@+id/textBox23"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText55"
+                android:id="@+id/textBox24"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText54"
+                android:id="@+id/textBox25"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText53"
+                android:id="@+id/textBox26"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText52"
+                android:id="@+id/textBox27"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText51"
+                android:id="@+id/textBox28"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText50"
+                android:id="@+id/textBox29"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
             <EditText
-                android:id="@+id/editText49"
+                android:id="@+id/textBox210"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
+                tools:layout_editor_absoluteY="310dp"
+                android:maxLength="1" />
 
-            <EditText
-                android:id="@+id/editText48"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText47"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText46"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText45"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText44"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/editText43"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
         </TableRow>
 
     </TableLayout>

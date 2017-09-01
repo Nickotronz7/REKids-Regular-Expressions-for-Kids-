@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainGame1" />
         <activity android:name=".MainGame2"></activity>
     </application>
 
