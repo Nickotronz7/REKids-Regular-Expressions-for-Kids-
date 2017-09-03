@@ -1,50 +1,52 @@
 package com.example.nicko.rekids_regular_expressions_for_kids_.Tools;
 
+import java.util.Objects;
+
 /**
  * Created by nicko on 01/09/17.
  */
 
 public class Matriz {
-    public Matriz y;
-    public String regularExp = "";
-    public static String matriz[][] = new String[12][3];
+    private String strMatrix = "";
+    private String regExp = "(";
+    private static String [][] matriz = new String[3][12];
 
+        //this.getMatrix();
     public void addData(String data, int posx, int posy) {
-        matriz[posx][posy] = data;
+        this.matriz[posx][posy] = data;
     }
 
-    public String getDataByPoss(int x, int y) {
-        return matriz[y][x];
+    private String getDataByPoss(int x, int y) {
+        return matriz[x][y];
     }
 
-    public String regularExp() {
-        if (matriz == null) {
-            return "error";
-        } else {
-            for (int i = 0; i <= 11; i += 1) {
-                for (int w = 0; w <= 2; w += 1) {
-                    if (y.matriz[i][w] != "" & y.matriz[i][w]!=null) {
-                        if (w == 0) {
-                            if (y.matriz[i][1] != "" & y.matriz[i][1]!=null) {
-                                regularExp += ("(" + y.matriz[i][w] + "+");
-                            } else {
-                                regularExp += y.matriz[i][w];
-                            }
-                        } else if (w == 1) {
-                            if (y.matriz[i][2] != "" & y.matriz[i][2]!=null) {
-                                regularExp += (y.matriz[i][w] + "+");
-                            } else {
-                                regularExp += (y.matriz[i][w] + ")");
-                            }
-                        } else {
-                            regularExp += (y.matriz[i][w] + ")");
-                        }
-                    } else {
-                        break;
-                    }
+    public void getMatrix() {
+        String strMatrix = "[";
+        for (int i = 0; i < 3; i++) {
+            strMatrix += "[";
+            for (int j = 0; j < 11; j++) {
+                if (Objects.equals(this.getDataByPoss(i,j),"")){
+                    strMatrix += "_,";
+                } else {
+                    strMatrix += this.getDataByPoss(i,j);
                 }
             }
-            return regularExp;
+            strMatrix += "]\n";
         }
+        strMatrix += "]";
+        this.strMatrix = strMatrix;
+    }
+
+    public String regExpEnssambler() {
+        for (int j = 0; j < 11; j++) {
+            for (int i = 0; i < 3; i++){
+                //this.regExp+=this.getDataByPoss(i,j);
+            }
+        }
+        return this.regExp;
+    }
+
+    public String getStrMatrix(){
+        return this.strMatrix;
     }
 }

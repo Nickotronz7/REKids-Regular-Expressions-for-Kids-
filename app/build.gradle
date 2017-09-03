@@ -5,13 +5,16 @@ android {
     buildToolsVersion "26.0.0"
     defaultConfig {
         applicationId "com.example.nicko.rekids_regular_expressions_for_kids_"
-        minSdkVersion 18
+        minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        debug {
+            debuggable true
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'

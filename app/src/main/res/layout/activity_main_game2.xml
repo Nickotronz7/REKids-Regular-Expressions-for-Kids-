@@ -8,17 +8,18 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="388dp"
-        android:layout_height="170dp"
+        android:layout_width="215dp"
+        android:layout_height="163dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="30dp"
         android:textAlignment="viewStart"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.503" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -82,7 +83,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp"
                 tools:maxEms="1" />
@@ -93,7 +94,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -103,7 +104,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -113,7 +114,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -123,7 +124,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -133,7 +134,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -143,7 +144,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -153,7 +154,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -163,7 +164,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -173,17 +174,17 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
             <EditText
-                android:id="@+id/textBox010"
+                android:id="@+id/textBox10"
                 android:layout_width="30dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -194,22 +195,12 @@
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/textBox10"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:maxLength="1"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
                 android:id="@+id/textBox11"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -219,7 +210,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -229,7 +220,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -239,7 +230,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -249,7 +240,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -259,7 +250,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -269,7 +260,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -279,7 +270,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -289,17 +280,27 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
             <EditText
-                android:id="@+id/textBox110"
+                android:id="@+id/textBox20"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="310dp" />
+
+            <EditText
+                android:id="@+id/textBox21"
+                android:layout_width="21dp"
+                android:layout_height="43dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -310,32 +311,12 @@
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/textBox20"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:maxLength="1"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/textBox21"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:maxLength="1"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
                 android:id="@+id/textBox22"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -345,7 +326,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -355,7 +336,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -365,7 +346,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -375,7 +356,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -385,7 +366,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -395,7 +376,7 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -405,17 +386,37 @@
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
             <EditText
-                android:id="@+id/textBox210"
+                android:id="@+id/textBox30"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:maxLength="1"
+                android:maxLength="2"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="310dp" />
+
+            <EditText
+                android:id="@+id/textBox31"
+                android:layout_width="21dp"
+                android:layout_height="43dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="2"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="310dp" />
+
+            <EditText
+                android:id="@+id/textBox32"
+                android:layout_width="21dp"
+                android:layout_height="43dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
