@@ -178,21 +178,21 @@
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
             <EditText
                 android:id="@+id/textBox10"
-                android:layout_width="30dp"
+                android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
 
             <EditText
                 android:id="@+id/textBox11"
@@ -284,6 +284,12 @@
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
             <EditText
                 android:id="@+id/textBox20"
                 android:layout_width="21dp"
@@ -303,12 +309,6 @@
                 android:maxLength="2"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
 
             <EditText
                 android:id="@+id/textBox22"
@@ -382,36 +382,6 @@
 
             <EditText
                 android:id="@+id/textBox29"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:maxLength="2"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/textBox30"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:maxLength="2"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/textBox31"
-                android:layout_width="21dp"
-                android:layout_height="43dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:maxLength="2"
-                tools:layout_editor_absoluteX="52dp"
-                tools:layout_editor_absoluteY="310dp" />
-
-            <EditText
-                android:id="@+id/textBox32"
                 android:layout_width="21dp"
                 android:layout_height="43dp"
                 android:ems="10"

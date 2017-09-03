@@ -24,7 +24,7 @@ public class MainGame2 extends AppCompatActivity {
 
     public void clear(View v){
         int name = R.id.textBox00;
-        for (int i = 0; i < 33; i++){
+        for (int i = 0; i < 30; i++){
             editText = (EditText) findViewById(name+i);
             editText.setText("");
             TextView myAwesomeTextView = (TextView) findViewById(R.id.textView);
@@ -36,20 +36,14 @@ public class MainGame2 extends AppCompatActivity {
         Matriz matriz = new Matriz();
         int refExp = R.id.textView;
         int cellID = R.id.textBox00;
-        int x = 0;
-        for (int j = 0; j < 11; j++){
+        for (int j = 0; j < 10; j++){
             for (int i = 0; i < 3; i++){
-                editText = (EditText) findViewById(cellID+(10*i));
-                editText.setText(String.valueOf(cellID+(10*i)));
-                /*
+                editText = (EditText) findViewById(cellID+(10*i)+j);
                 String value = editText.getText().toString();
                 matriz.addData(value,i,j);
-                */
             }
         }
-/*
         TextView myAwesomeTextView = (TextView) findViewById(refExp);
         myAwesomeTextView.setText(matriz.regExpEnssambler());
-*/
     }
 }

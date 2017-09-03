@@ -8,7 +8,7 @@ import java.util.Objects;
 
 public class Matriz {
     private String strMatrix = "";
-    private String regExp = "(";
+    private String regExp = "";
     private static String [][] matriz = new String[3][12];
 
         //this.getMatrix();
@@ -38,9 +38,22 @@ public class Matriz {
     }
 
     public String regExpEnssambler() {
-        for (int j = 0; j < 11; j++) {
-            for (int i = 0; i < 3; i++){
-                //this.regExp+=this.getDataByPoss(i,j);
+        for (int j = 0; j < 10; j++) {
+            if (!Objects.equals(this.getDataByPoss(0,j),"")) {
+                regExp+="(";
+                for (int i = 0; i < 3; i++){
+                    if (!Objects.equals(this.getDataByPoss(i,j),"")) {
+                        if (i < 2){ //revisar sentecia
+                            this.regExp+=this.getDataByPoss(i,j) + "("+i+")";
+                        } else {
+                            this.regExp+=this.getDataByPoss(i,j)+")";
+                        }
+                    } else {
+                        //regExp+="(";
+                    }
+                }
+            } else {
+                break;
             }
         }
         return this.regExp;
