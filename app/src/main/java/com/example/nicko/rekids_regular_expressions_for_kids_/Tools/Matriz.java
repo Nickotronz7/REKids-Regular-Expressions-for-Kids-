@@ -11,7 +11,6 @@ public class Matriz {
     private String regExp = "";
     private static String [][] matriz = new String[3][12];
 
-        //this.getMatrix();
     public void addData(String data, int posx, int posy) {
         this.matriz[posx][posy] = data;
     }
@@ -20,46 +19,23 @@ public class Matriz {
         return matriz[x][y];
     }
 
-    public void getMatrix() {
-        String strMatrix = "[";
-        for (int i = 0; i < 3; i++) {
-            strMatrix += "[";
-            for (int j = 0; j < 11; j++) {
-                if (Objects.equals(this.getDataByPoss(i,j),"")){
-                    strMatrix += "_,";
-                } else {
-                    strMatrix += this.getDataByPoss(i,j);
-                }
-            }
-            strMatrix += "]\n";
-        }
-        strMatrix += "]";
-        this.strMatrix = strMatrix;
-    }
-
     public String regExpEnssambler() {
         for (int j = 0; j < 10; j++) {
-            if (!Objects.equals(this.getDataByPoss(0,j),"")) {
+            if (!Objects.equals(this.getDataByPoss(0,j),"") && !Objects.equals(this.getDataByPoss(0,j),"*")) {
                 regExp+="(";
                 for (int i = 0; i < 3; i++){
                     if (!Objects.equals(this.getDataByPoss(i,j),"")) {
-                        if (i < 2){ //revisar sentecia
-                            this.regExp+=this.getDataByPoss(i,j) + "("+i+")";
+                        if (i < 2 && !Objects.equals(this.getDataByPoss(i + 1, j), "")) { //revisar sentecia
+                            this.regExp += this.getDataByPoss(i, j) + "+";
                         } else {
-                            this.regExp+=this.getDataByPoss(i,j)+")";
+                            this.regExp += this.getDataByPoss(i, j) + ")";
                         }
-                    } else {
-                        //regExp+="(";
                     }
                 }
-            } else {
-                break;
+            } else if (Objects.equals(this.getDataByPoss(0,j),"*")) {
+                this.regExp+="*";
             }
         }
         return this.regExp;
-    }
-
-    public String getStrMatrix(){
-        return this.strMatrix;
     }
 }
