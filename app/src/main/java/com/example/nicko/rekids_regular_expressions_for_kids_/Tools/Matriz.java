@@ -21,7 +21,13 @@ public class Matriz {
         for (int i = 0; i < 10; i++) {
             Matcher encaja = patron.matcher(getRandom(alfabeto));
             if (encaja.find()) {
-                hileras+= encaja.group() + "\n";
+                if (i == 9){
+                    hileras+= encaja.group();
+                } else {
+                    hileras+= encaja.group() + "\n";
+                }
+            } else {
+                //hileras += "hola";
             }
         }
         return hileras;

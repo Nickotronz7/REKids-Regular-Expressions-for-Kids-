@@ -4,22 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.nicko.rekids_regular_expressions_for_kids_.Games.MainGame2">
+    tools:context="com.example.nicko.rekids_regular_expressions_for_kids_.Games.MainGame2"
+    android:background="@drawable/activity2background">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textHilerasView"
         android:layout_width="215dp"
-        android:layout_height="163dp"
+        android:layout_height="174dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="30dp"
-        android:textAlignment="viewStart"
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.503" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textRegExpView"
+        android:layout_width="215dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHilerasView"
+        app:layout_constraintVertical_bias="0.6" />
 
     <Button
         android:id="@+id/button"
@@ -59,7 +76,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textHilerasView"
         app:layout_constraintVertical_bias="0.156">
 
         <TableRow
@@ -73,6 +90,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp"
                 tools:maxEms="1" />
@@ -84,6 +102,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -94,6 +113,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -104,6 +124,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -114,6 +135,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -124,6 +146,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -134,6 +157,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -144,6 +168,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -154,6 +179,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -164,6 +190,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -180,6 +207,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -190,6 +218,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -200,6 +229,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -210,6 +240,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -220,6 +251,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -230,6 +262,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -240,6 +273,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -250,6 +284,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -260,6 +295,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -270,6 +306,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -286,6 +323,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -296,6 +334,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -306,6 +345,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -316,6 +356,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -326,6 +367,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -336,6 +378,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -346,6 +389,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -356,6 +400,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -366,6 +411,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
@@ -376,6 +422,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:maxLength="1"
+                android:textColor="@android:color/holo_orange_dark"
                 tools:layout_editor_absoluteX="52dp"
                 tools:layout_editor_absoluteY="310dp" />
 
