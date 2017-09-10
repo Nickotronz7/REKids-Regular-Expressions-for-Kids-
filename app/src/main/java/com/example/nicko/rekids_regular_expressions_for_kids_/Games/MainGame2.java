@@ -44,6 +44,7 @@ public class MainGame2 extends AppCompatActivity {
             }
         }
         TextView myAwesomeTextView = (TextView) findViewById(refExp);
-        myAwesomeTextView.setText(matriz.regExpEnssambler());
+        //myAwesomeTextView.setText(matriz.regExpEnssambler());
+        myAwesomeTextView.setText(matriz.getHileras(matriz.regExpEnssambler(), matriz.getAlfabeto(matriz.regExpEnssambler())));
     }
 }
