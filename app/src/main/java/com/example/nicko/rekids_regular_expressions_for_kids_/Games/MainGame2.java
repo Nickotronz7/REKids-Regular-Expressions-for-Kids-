@@ -1,6 +1,7 @@
 
 package com.example.nicko.rekids_regular_expressions_for_kids_.Games;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.SystemClock;
@@ -9,6 +10,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.nicko.rekids_regular_expressions_for_kids_.Instructions_help.Game2help;
 import com.example.nicko.rekids_regular_expressions_for_kids_.R;
 import com.example.nicko.rekids_regular_expressions_for_kids_.Tools.Matriz;
 
@@ -24,6 +26,11 @@ public class MainGame2 extends AppCompatActivity {
         SystemClock.sleep(250);
         mediaPlayer.setLooping(true);
         mediaPlayer.start();
+    }
+
+    public void help(View v) {
+        Intent intent = new Intent(this, Game2help.class);
+        startActivity(intent);
     }
 
     protected void onPause() {
