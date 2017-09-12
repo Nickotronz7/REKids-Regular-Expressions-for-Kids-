@@ -50,7 +50,6 @@ public class Game_3_Menu extends AppCompatActivity {
         RookieBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mediaPlayer.stop();
                 Intent gameR = new Intent(Game_3_Menu.this,Game_3_Rookie.class);
                 startActivity(gameR);
             }
@@ -62,7 +61,6 @@ public class Game_3_Menu extends AppCompatActivity {
         NormalBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mediaPlayer.stop();
                 Intent gameI = new Intent(Game_3_Menu.this, Game_3_Normal.class);
                 startActivity(gameI);
             }
@@ -74,7 +72,6 @@ public class Game_3_Menu extends AppCompatActivity {
         ExpertBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mediaPlayer.stop();
                 Intent gameE = new Intent(Game_3_Menu.this,Game_3_Expert.class);
                 startActivity(gameE);
             }
@@ -86,7 +83,6 @@ public class Game_3_Menu extends AppCompatActivity {
         HelpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mediaPlayer.stop();
                 Intent display = new Intent(Game_3_Menu.this,Game_3_Instruction.class);
                 startActivity(display);
             }

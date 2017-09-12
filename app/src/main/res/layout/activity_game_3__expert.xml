@@ -288,7 +288,9 @@
         android:layout_width="31dp"
         android:layout_height="26dp"
         app:srcCompat="@drawable/heart"
-        tools:layout_editor_absoluteY="409dp"
-        tools:layout_editor_absoluteX="345dp" />
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/G8"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

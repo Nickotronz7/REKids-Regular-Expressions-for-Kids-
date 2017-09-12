@@ -55,7 +55,7 @@ public class Game_3_Expert extends AppCompatActivity {
         B7Pressed();
         B8Pressed();
         B9Pressed();
-        mediaPlayer = MediaPlayer.create(Game_3_Expert.this, R.raw.boss);
+        mediaPlayer = MediaPlayer.create(Game_3_Expert.this, R.raw.game_1_assasins);
         Play();
     }
     public void Play(){
@@ -106,6 +106,22 @@ public class Game_3_Expert extends AppCompatActivity {
                 }
                 else{
                     switch (lvl){
+                        case 1: if (h9==true){
+                            H9.setVisibility(View.INVISIBLE);
+                            h9=false;
+                            hp=hp+1;
+                        }
+                        else if (h8==true){
+                            H8.setVisibility(View.INVISIBLE);
+                            h8=false;
+                            hp=hp+1;
+                        }
+                        else{
+                            H7.setVisibility(View.INVISIBLE);
+                            h7=false;
+                            hp=hp+1;
+                        }
+                            break;
                         case 2: if (h9==true){
                             H9.setVisibility(View.INVISIBLE);
                             h9=false;
