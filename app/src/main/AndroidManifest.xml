@@ -19,6 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Games.MainGame2" />
+        <activity android:name=".Games.Game_1_Rookie" />
+        <activity android:name=".Games.Game_1_Normal" />
+        <activity android:name=".Menus.Game_1_Menu" />
+        <activity android:name=".Menus.Game_1_UserManual" />
         <activity android:name=".Instructions_help.Game2help"></activity>
     </application>
 

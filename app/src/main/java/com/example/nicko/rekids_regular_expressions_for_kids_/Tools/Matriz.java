@@ -26,8 +26,6 @@ public class Matriz {
                 } else {
                     hileras+= encaja.group() + "\n";
                 }
-            } else {
-                //hileras += "hola";
             }
         }
         return hileras;

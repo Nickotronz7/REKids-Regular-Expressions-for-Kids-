@@ -34,4 +34,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainGame2.class);
         startActivity(intent);
     }
+
+    public void openGame1 (View v) {
+        mediaPlayer.stop();
+        Intent intent = new Intent(this, Game_1_Menu.class);
+        startActivity(intent);
+    }
 }

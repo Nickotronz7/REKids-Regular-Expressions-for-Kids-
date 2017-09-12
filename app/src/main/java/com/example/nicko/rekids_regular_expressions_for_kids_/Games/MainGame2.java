@@ -18,6 +18,7 @@ public class MainGame2 extends AppCompatActivity {
 
     public EditText editText;
     MediaPlayer mediaPlayer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

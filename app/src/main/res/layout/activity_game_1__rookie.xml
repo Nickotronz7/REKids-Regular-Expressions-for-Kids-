@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nicko.rekids_regular_expressions_for_kids_.Games.Game_1_Rookie">
+
+    <ImageView
+        android:id="@+id/imgv4"
+        android:layout_width="75dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:maxHeight="150dp"
+        android:maxWidth="75dp"
+        android:minHeight="150dp"
+        android:minWidth="75dp"
+        app:layout_constraintLeft_toRightOf="@+id/imgv3"
+        app:layout_constraintTop_toBottomOf="@+id/chbxAnswer12"
+        app:srcCompat="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btnOption1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnOption5"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/btnOption2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnOption6"
+        app:layout_constraintLeft_toRightOf="@+id/btnOption1" />
+
+    <Button
+        android:id="@+id/btnOption3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnOption7"
+        app:layout_constraintLeft_toRightOf="@+id/btnOption2" />
+
+    <Button
+        android:id="@+id/btnOption4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnOption8"
+        app:layout_constraintLeft_toRightOf="@+id/btnOption3" />
+
+    <Button
+        android:id="@+id/btnOption5"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/btnOption6"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnOption5" />
+
+    <Button
+        android:id="@+id/btnOption7"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnOption6" />
+
+    <Button
+        android:id="@+id/btnOption8"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnOption7" />
+
+    <CheckBox
+        android:id="@+id/chbxAnswer1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="14sp"
+        app:buttonTint="@android:color/darker_gray"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvFourthQ" />
+
+    <CheckBox
+        android:id="@+id/chbxAnswer2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/holo_orange_light"
+        app:buttonTint="@android:color/darker_gray"
+        app:layout_constraintLeft_toRightOf="@+id/chbxAnswer1"
+        app:layout_constraintTop_toBottomOf="@+id/txtvFourthQ" />
+
+    <CheckBox
+        android:id="@+id/chbxAnswer3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/holo_orange_light"
+        app:buttonTint="@android:color/darker_gray"
+        app:layout_constraintLeft_toRightOf="@+id/chbxAnswer2"
+        app:layout_constraintTop_toBottomOf="@+id/txtvFourthQ" />
+
+    <CheckBox
+        android:id="@+id/chbxAnswer4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/holo_orange_light"
+        app:buttonTint="@android:color/darker_gray"
+        app:layout_constraintLeft_toRightOf="@+id/chbxAnswer3"
+        app:layout_constraintTop_toBottomOf="@+id/txtvFourthQ" />
+
+    <CheckBox
+        android:id="@+id/chbxAnswer5"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@android:color/holo_orange_light"
+        app:buttonTint="@android:color/darker_gray"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chbxAnswer1" />
+
+    <CheckBox
+        android:id="@+id/chbxAnswer6"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@android:color/holo_orange_light"
+        app:buttonTint="@android:color/darker_gray"
+        app:layout_constraintLeft_toRightOf="@+id/chbxAnswer5"
+        app:layout_constraintTop_toBottomOf="@+id/chbxAnswer2" />
+
+    <CheckBox
+        android:id="@+id/chbxAnswer7"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@android:color/holo_orange_light"
+        app:buttonTint="@android:color/darker_gray"
+        app:layout_constraintLeft_toRightOf="@+id/chbxAnswer6"
+        app:layout_constraintTop_toBottomOf="@+id/chbxAnswer3" />
+
+    <CheckBox
+        android:id="@+id/chbxAnswer8"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@android:color/holo_orange_light"
+        app:buttonTint="@android:color/darker_gray"
+        app:layout_constraintLeft_toRightOf="@+id/chbxAnswer7"
+        app:layout_constraintTop_toBottomOf="@+id/chbxAnswer4" />
+
+    <CheckBox
+        android:id="@+id/chbxAnswer9"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@android:color/holo_orange_light"
+        app:buttonTint="@android:color/darker_gray"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chbxAnswer5" />
+
+    <CheckBox
+        android:id="@+id/chbxAnswer10"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@android:color/holo_orange_light"
+        app:buttonTint="@android:color/darker_gray"
+        app:layout_constraintLeft_toRightOf="@+id/chbxAnswer9"
+        app:layout_constraintTop_toBottomOf="@+id/chbxAnswer6" />
+
+    <CheckBox
+        android:id="@+id/chbxAnswer11"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@android:color/holo_orange_light"
+        app:buttonTint="@android:color/darker_gray"
+        app:layout_constraintLeft_toRightOf="@+id/chbxAnswer10"
+        app:layout_constraintTop_toBottomOf="@+id/chbxAnswer7" />
+
+    <CheckBox
+        android:id="@+id/chbxAnswer12"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@android:color/holo_orange_light"
+        app:buttonTint="@android:color/darker_gray"
+        app:layout_constraintLeft_toRightOf="@+id/chbxAnswer11"
+        app:layout_constraintTop_toBottomOf="@+id/chbxAnswer8" />
+
+    <TextView
+        android:id="@+id/txtvPantallas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Pantallas"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnNext"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/txtvFirstQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtvSecondQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvFirstQ" />
+
+    <TextView
+        android:id="@+id/txtvThirdQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvSecondQ" />
+
+    <TextView
+        android:id="@+id/txtvFourthQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvThirdQ" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-1dp"
+        android:layout_marginTop="30dp"
+        android:text="siguiente"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvFourthQ" />
+
+    <Button
+        android:id="@+id/btnPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:text="anterior"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNext" />
+
+    <Button
+        android:id="@+id/btnLimpiarT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Limpiar todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btnLimpiar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:text="LIMPIAR SEL."
+        app:layout_constraintBottom_toTopOf="@+id/btnLimpiarT"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgv1"
+        android:layout_width="75dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:maxHeight="150dp"
+        android:maxWidth="75dp"
+        android:minHeight="150dp"
+        android:minWidth="75dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chbxAnswer9"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/imgv2"
+        android:layout_width="75dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:maxHeight="150dp"
+        android:maxWidth="75dp"
+        android:minHeight="150dp"
+        android:minWidth="75dp"
+        app:layout_constraintLeft_toRightOf="@+id/imgv1"
+        app:layout_constraintTop_toBottomOf="@+id/chbxAnswer10"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/imgv3"
+        android:layout_width="75dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:maxHeight="150dp"
+        android:maxWidth="75dp"
+        android:minHeight="150dp"
+        android:minWidth="75dp"
+        app:layout_constraintLeft_toRightOf="@+id/imgv2"
+        app:layout_constraintTop_toBottomOf="@+id/chbxAnswer12"
+        app:srcCompat="@android:color/transparent" />
+
+</android.support.constraint.ConstraintLayout>
