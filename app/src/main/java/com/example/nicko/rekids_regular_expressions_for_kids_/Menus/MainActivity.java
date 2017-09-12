@@ -29,15 +29,23 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void openGame1 (View v) {
+        mediaPlayer.stop();
+        Intent intent = new Intent(this, Game_1_Menu.class);
+        startActivity(intent);
+    }
+
     public void openGame2 (View v){
         mediaPlayer.stop();
         Intent intent = new Intent(this, MainGame2.class);
         startActivity(intent);
     }
 
-    public void openGame1 (View v) {
+
+
+    public void openGame3 (View v) {
         mediaPlayer.stop();
-        Intent intent = new Intent(this, Game_1_Menu.class);
+        Intent intent = new Intent(this, Game_3_Menu.class);
         startActivity(intent);
     }
 }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nicko.rekids_regular_expressions_for_kids_.Menus.GameOver_game3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="263dp"
+        android:layout_height="310dp"
+        android:text="GAME OVER! GRACIAS POR JUGAR"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="452dp"
+        android:layout_height="743dp"
+        app:srcCompat="@drawable/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="46dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

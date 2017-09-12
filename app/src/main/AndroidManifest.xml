@@ -24,6 +24,12 @@
         <activity android:name=".Menus.Game_1_Menu" />
         <activity android:name=".Menus.Game_1_UserManual" />
         <activity android:name=".Instructions_help.Game2help"></activity>
+        <activity android:name=".Menus.Game_3_Menu" />
+        <activity android:name=".Games.Game_3_Rookie" />
+        <activity android:name=".Games.Game_3_Normal" />
+        <activity android:name=".Games.Game_3_Expert" />
+        <activity android:name=".Instructions_help.Game_3_Instruction" />
+        <activity android:name=".Menus.GameOver_game3" />
     </application>
 
 </manifest>
