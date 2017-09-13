@@ -8,17 +8,53 @@
     >
 
 
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="499dp"
+        android:layout_height="345dp"
+        app:srcCompat="@drawable/screen"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="44dp"
+        app:layout_constraintHorizontal_bias="0.671"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintVertical_bias="0.0" />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="4dp"
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
         android:text="Cómo Jugar Tales Of Expressya"
         android:textColor="@android:color/black"
-        android:textSize="30sp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="325dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Para jugar Tales of Expressya se presentan dos o tres ejemplos sobre las posibles respuestas sobre una expresión regular y tienes que seleccionar la respuesta sobre la expresión regular corecta, si la opción seleccionada es correcta Garland ataca, de lo contrario Garland pierde un punto de vida."
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.511" />
 
 </android.support.constraint.ConstraintLayout>
